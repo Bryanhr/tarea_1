@@ -35,5 +35,10 @@ public class Televisor {
         this.volumen += 1;
         System.out.println("El nuevo volumen es " + this.volumen);
     }
+    
+    public void bajarVolumen () {
+        this.volumen -= 1;
+        System.out.println("El nuevo volumen es " + this.volumen);
+    }
             
 }
