@@ -30,5 +30,10 @@ public class Televisor {
         this.canal += 1;
         System.out.println("El nuevo canal es " + this.canal);
     }
+    
+    public void subirVolumen () {
+        this.volumen += 1;
+        System.out.println("El nuevo volumen es " + this.volumen);
+    }
             
 }
